@@ -18,34 +18,36 @@ body {
   justify-content: center;
   align-items: center;
   font-family: var(--Font);
-  .container {
-    .card {
-      background: var(--White);
-      padding: 15px;
-      width: 300px;
-      margin-bottom: 30px;
-      border-radius: 10px;
-      .card-img {
-        img {
-          max-width: 100%;
-          border-radius: 10px;
+  main {
+    .container {
+      .card {
+        background: var(--White);
+        padding: 15px;
+        width: 300px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        .card-img {
+          img {
+            max-width: 100%;
+            border-radius: 10px;
+          }
+        }
+        .card-content {
+          padding: 10px;
+          text-align: center;
+          h2 {
+          }
+          p {
+          }
         }
       }
-      .card-content {
-        padding: 10px;
-        text-align: center;
-        h2 {
-        }
-        p {
-        }
-      }
-    }
 
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-      a {
-        color: hsl(228, 45%, 44%);
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        a {
+          color: hsl(228, 45%, 44%);
+        }
       }
     }
   }
